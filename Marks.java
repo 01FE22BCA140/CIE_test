@@ -7,7 +7,8 @@ class Marks{
      System.out.println(Courses[i]);
     }
     System.out.println("\nCourses with marks less than 40");
-    for(int i=0;i<Courses[i].length();i++){
+    for(int i=0;i<=3;i++){
+        if(Marks[i]<40)
         System.out.println(Courses[i] + "\t\t"+ Marks[i]);
     }
 }
